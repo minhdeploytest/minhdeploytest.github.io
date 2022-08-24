@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting Point</title>
+    <style>
+        #btn {
+            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        button {
+            padding: 50px;
+            margin: 50px;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="btn">
+        <button>Click here to redirect to the page</button>
+    </div>
+    <script>
+        const button = document.querySelector('button');
+        button.addEventListener('click', function () {
+            window.location.href = 'big-categories/lienhe.html';
+        });
+    </script>
+</body>
+</html>
