@@ -1,7 +1,7 @@
 # minhdeploytest.github.io
 + Người làm (Author): Đào Hải Minh
 + Người phụ trách hướng dẫn (Instructor): anh Nguyễn Thanh Sơn
-+ 
+
 (Đọc bài này trước khi sử dụng/Read this before using)
 Test Web Deploy (Vietnamese and English readme. English readme is below Vietnamese readme)
 
