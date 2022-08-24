@@ -15,7 +15,7 @@ Test Web Deploy (Vietnamese and English readme. English readme is below Vietname
   + Trang Quy hoạch tỉnh & Dịch vụ công
   
 2. Hướng dẫn khi truy cập
-- Khi truy cập vào đường link minhdeploy.github.io, mặc định sẽ ở "Trang Liên Hệ". Từ "Trang Liên Hệ" có thể đi ra "Trang Nghiên Cứu" hoặc "Trang Lĩnh Vực" bằng thanh truy cập phía ngang (navbar) trên đầu trang Web (các trang khác chưa có cơ hội làm hết được)
+- Khi truy cập vào đường link minhdeploytest.github.io, mặc định sẽ ở "Trang Liên Hệ". Từ "Trang Liên Hệ" có thể đi ra "Trang Nghiên Cứu" hoặc "Trang Lĩnh Vực" bằng thanh truy cập phía ngang (navbar) trên đầu trang Web (các trang khác chưa có cơ hội làm hết được)
 - Ở trong "Trang Nghiên Cứu" có thể dùng navbar đi sang "Trang Liên Hệ", "Trang Lĩnh Vực" hoặc có thể sử dụng "Dark/Light mode".
 - Ở trong "Trang Lĩnh vực" có thể dùng navbar đi sang "Trang Nghiên Cứu", "Trang Lĩnh Vực" hoặc có thể sử dụng "Dark/Light mode". Ở phía dưới phần tiêu đề "Lĩnh vực" của "Trang Lĩnh Vực" có một thanh truy cập phía dọc, trong đó ta chỉ có thể truy cập vào phần "Bán lẻ & Tiêu dùng" và "Quy hoạch tỉnh & Dịch vụ công"
 
