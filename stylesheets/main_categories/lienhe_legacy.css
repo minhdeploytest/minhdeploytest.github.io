@@ -1,0 +1,265 @@
+#title-of-title {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#main-bg {
+    background-image: url('../../images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 620px;
+    background-position: center;
+}
+
+.title-set-width {
+    max-width: 100%;
+}
+
+.main-title-display {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background-image: linear-gradient(to right, #162570, #0647c9);
+    padding: 35px 0;
+}
+
+.main-title-display::before {
+    top: 0;
+    position: absolute;
+    content: '';
+    width: 230px;
+    height: 100%;
+    background-image: url('../../images/3-line.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.main-title-text-set-width {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.main-title-text-display {
+    width: 100%;
+    display: inline-block;
+}
+
+#main-title {
+    width: 40%;
+    float: left;
+}
+
+#main-description {
+    width: 56%;
+    float: left;
+}
+
+#main-title p {
+    color: #fff;
+    font-size: 32px;
+    font-family: gilroy;
+    font-weight: 700;
+}
+
+#main-description {
+    color: #cbd5e7;
+    font-size: 16px;
+    font-family: graphik;
+    font-weight: 400;
+    letter-spacing: 0.64px;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+
+.the-main-form-set-width {
+    max-width: 100%;
+}
+
+.the-main-form-display {
+    width: 100%;
+    display: inline-block;
+}
+
+.details-main {
+    width: 40%;
+    float: left;
+    background-color: #f3f3f5;
+    padding: 80px 0 650px;
+}
+
+.form-fill-main {
+    width: 50%;
+    float: left;
+    padding: 80px 20px 80px 92px;
+}
+
+#the-contact-main {
+    width: 50%;
+    float: right;
+    padding: 0 67px 0 20px;
+}
+
+.city-main {
+    color: #222;
+    font-size: 17px;
+    font-family: gilroy;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.specific-location {
+    font-size: 15px;
+    font-family: graphik;
+    font-weight: 400;
+    letter-spacing: 0.09;
+    line-height: 1.5;
+}
+
+.specific-location a {
+    text-decoration: none;
+    color: #75787c;
+}
+
+.connect-main {
+    color: #222;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.all-platforms {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.icons {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#the-main-form {
+    width: 75%;
+}
+
+#title-of-form {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#title-of-form p {
+    color: #222;
+    font-size: 24px;
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+.row-form {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.column-form-1 {
+    width: 45%;
+    float: left;
+}
+
+.column-form-2 {
+    width: 45%;
+    float: right;
+}
+
+.first-name-input {
+    float: left;
+    width: 100%;
+    border: 1px solid #bbb;
+    color: #132833;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 3px;
+    height: 38px;
+}
+
+.last-name-input {
+    float: right;
+    width: 100%;
+    border: 1px solid #bbb;
+    color: #132833;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 3px;
+    height: 38px;
+}
+
+.row-form label {
+    color: #555;
+    font-size: 17px;
+    font-family: graphik;
+    font-weight: 400;
+}
+
+.column-form-3,
+.main-form-checkbox {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-form-checkbox label {
+    color: #555;
+    font-size: 14px;
+    font-family: graphik;
+    font-weight: 400;
+}
+
+.the-main-textarea {
+    height: 150px;
+}
+
+.button-submit {
+    width: 25%;
+    float: right;
+    height: 35px;
+}
+
+#submit-form-button {
+    width: 100%;
+    background-color: #0647c9;
+    color: #fff;
+    font-size: 14px;
+    font-family: gilroy;
+    font-weight: 700;
+    border: none;
+    height: 100%;
+}
+
+#linebreak-form {
+    margin-top: 75px;
+    border-top: 1px solid rgba(85, 85, 85, 0.4);
+    margin-bottom: 20px;
+}
+
+.form-warning {
+    width: 100%;
+}
+
+.form-warning p {
+    font-size: 13px;
+    font-family: graphik;
+    color: #555;
+}
+
+.form-warning a {
+    text-decoration: none;
+    color: #121619;
+    font-size: 13px;
+    font-family: graphik;
+    font-weight: 500;
+}
+
+.display-form.align-form-lower-part {
+    margin-top: -10px;
+}

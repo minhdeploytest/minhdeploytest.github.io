@@ -1,0 +1,172 @@
+#linh-vuc-wrap {
+    margin-top: 100px;
+}
+
+#title-description {
+    width: 74%;
+    line-height: 1.8;
+}
+
+#name-title {
+    max-width: 100%;
+    background-color: #e4e4e4;
+    padding: 20px 0;
+}
+
+#align-frame {
+    max-width: 1280px;
+    margin: auto;
+}
+
+#name-title {
+    margin-bottom: 60px;
+}
+
+#name-displayed {
+    width: 100%;
+    display: inline-block;
+}
+
+#title01 {
+    margin-right: 223px;
+}
+
+#title01,
+#title02 {
+    display: inline-block;
+    width: 25%;
+    color: #666;
+    font-family: graphik;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#main-content {
+    width: 1280px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+#content-display {
+    max-width: 100%;
+    display: inline-block;
+}
+
+#nav-vertical-bar {
+    width: 37%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#article-spotlight {
+    width: 57%;
+    float: right;
+}
+
+#top-bar {
+    border-top: 1px solid #abb8c3;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.bar {
+    border-top: 1px solid #abb8c3;
+    width: 90%;
+    opacity: 0.4;
+    float: right;
+}
+
+.topic {
+    font-size: 17px;
+    font-family: gilroy;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 18px;
+}
+
+.topic a {
+    text-decoration: none;
+    color: #222222;
+}
+
+#top-topic {
+    margin-top: 15px;
+}
+
+.topic img,
+.topic p {
+    display: inline-block;
+}
+
+.topic img {
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+#the-spotlighted-article {
+    width: 100%;
+}
+
+#the-spotlighted-mainpoint {
+    width: 15%;
+}
+
+#the-spotlighted-mainpoint p {
+    text-align: center;
+}
+
+#date-inline {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+#article-main-page {
+    margin-top: -10px;
+}
+
+#description-aligning {
+    width: 70%;
+    text-align: left;
+}
+
+.link-spotlight-article {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.link-spotlight-article p {
+    color: #0647C9;
+    font-size: 17px;
+    font-family: graphik;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.link-spotlight-article img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#full-bar {
+    border-top: 1px solid #abb8c3;
+    width: 100%;
+}
+
+.mainpoint-blockchain {
+    width: 12%;
+}
+
+.mainpoint-ai {
+    width: 23%;
+}
+
+.mainpoint-digital-stratgy {
+    width: 15%;
+}
+
+.mainpoint-internet-of-thing {
+    width: 19%;
+}

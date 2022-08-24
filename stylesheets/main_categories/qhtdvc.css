@@ -1,0 +1,323 @@
+.main-title-area {
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.main-title-area h5 {
+    color: #000;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+.main-title-area h1 {
+    color: #000;
+    font-size: 70px;
+    font-family: gilroy;
+}
+
+.main-title-area p {
+    color: #000;
+    font-size: 20px;
+    font-family: graphik;
+    font-weight: 400;
+}
+
+.spotlight {
+    max-width: 100%;
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.spotlight::before {
+    background-image: url(../../images/bgdvc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100% - 40px);
+    position: absolute;
+    content: '';
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.spotlight-category {
+    position: relative;
+    width: 100%;
+}
+
+.spotlight-category::before {
+    /*  */
+    content: '';
+    height: 50%;
+    position: absolute;
+    display: block;
+    border-left: 3px solid #006FFC;
+    top: 7.5px;
+    z-index: 3;
+}
+
+.spotlight-category p {
+    color: #fff;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 600;
+    padding-left: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.spotlight-title {
+    width: 100%;
+}
+
+.spotlight-title h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: gilroy;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+}
+
+.spotlight-desc {
+    width: 100%;
+}
+
+.spotlight-desc p {
+    color: #d0d3e2;
+    font-size: 16px;
+    font-family: graphik;
+    font-weight: 400;
+    line-height: 1.63;
+    position: relative;
+    z-index: 2;
+}
+
+.spotlight-link {
+    width: 100%;
+}
+
+.spotlight-link a {
+    position: relative;
+    text-decoration: none;
+}
+
+.spotlight-link a span {
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    color: #2F88FF;
+    font-size: 17px;
+    font-family: graphik;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.spotlight-link a::before {
+    z-index: 1;
+    width: 100px;
+    left: -10px;
+    bottom: -5px;
+    height: 30px;
+    position: absolute;
+    content: '';
+    padding: 5px 0;
+    border: transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.spotlight-link a:hover::before {
+    background-color: #fff;
+}
+
+
+.spotlight-link a span::after {
+    top: 3px;
+    left: 65px;
+    z-index: 2;
+    background-image: url('../../images/fdx-arr.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content: '';
+    float: left;
+}
+
+.spotlight-image {
+    width: 50%;
+    float: left;
+    position: relative;
+    bottom: 0;
+    z-index: 3;
+}
+
+.spotlight-image img{
+    margin-left: 60px; 
+}
+
+.row-article {
+    margin-bottom: 40px;
+}
+
+.article-image img {
+    width: 100%;
+    min-height: 25%;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.article-linebreak {
+    border: 1px solid #e6e6e6;
+    margin-bottom: 22px;
+}
+
+.bg-category-digital-strategy {
+    width: 19%;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+.article-category p {
+    color: #010101;
+    font-size: 14px;
+    font-family: graphik;
+    font-weight: 600;
+}
+
+.article-title {
+    margin-bottom: 20px;
+}
+
+.article-title a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 30px;
+    font-family: gilroy;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.article-desc {
+    color: #444444;
+    font-size: 16px;
+    font-family: graphik;
+    font-weight: 400;
+    line-height: 1.63;
+}
+
+.article-date {
+    color: #747474;
+    font-size: 14px;
+    font-family: graphik;
+    font-weight: 400;
+    line-height: 1.63;
+}
+
+.bg-category-data-and-analytics {
+    width: 20%;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+.other-links {
+    margin-bottom: 100px;
+}
+
+.link-wrap a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #121619;
+    font-size: 18px;
+    font-family: graphik;
+    font-weight: 500;
+}
+
+.link-wrap a:nth-child(1) {
+    color: #007BFF;
+}
+
+@media screen and (max-width: 1820px){
+    .spotlight-image img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1424px){
+    .spotlight-image img{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1184px){
+    .bg-category-data-and-analytics{
+        width: 30%;
+    }
+
+    .bg-category-digital-strategy{
+        width: 27%;
+    }
+}
+@media screen and (max-width: 1162px){
+    .main-title-area h5{
+        font-size: 20px;
+    }
+    .main-title-area h1{
+        font-size: 40px;
+    }
+
+    .main-title-area p{
+        font-size: 16px;
+    }
+    .spotlight-category p{
+        font-size: 17px;
+    }
+
+    .spotlight-category::before{
+        height: 45%;
+        bottom: 5px;
+    }
+    .spotlight-title h2{
+        font-size: 28px;
+    }
+
+    .spotlight-desc p{
+        font-size: 14px;
+    }
+
+    .spotlight-link a span{
+        font-size: 14px;
+    }
+
+    .spotlight-link a span::after{
+        top: 1px;
+    }
+
+
+
+}
+@media screen and (max-width: 991px){
+    .spotlight-image{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .spotlight-image img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .bg-category-data-and-analytics p, .bg-category-digital-strategy p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .article-block{
+        margin-bottom: 150px;
+    }
+}

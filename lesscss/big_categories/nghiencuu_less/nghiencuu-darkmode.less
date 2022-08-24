@@ -1,0 +1,64 @@
+@import 'functions_nghiencuu.less';
+@import '../../var.less';
+
+body {
+    &.dark-theme {
+        .theme-darkify();
+
+        .main-title-area h1,
+        .main-title-area p,
+        span#cate-1,
+        span#cate-2,
+        .spotlight-title a h2,
+        .spotlight-desc p,
+        .slide-title p,
+        .slide-link-all a,
+        .report-title p,
+        .report-date p,
+        .details-of-report a span,
+        .nghiencuu-title p,
+        .title-of-form p,
+        .article-category span,
+        .the-article p,
+        .form-for-nghiencuu form select,
+        .most-read-text-area p,
+        #web-name a,
+        .real-address p,
+        .real-address a,
+        #menu-1 a,
+        #menu-2 a,
+        #contact-title p,
+        .final-footer-left p,
+        .final-footer-right a {
+            .text-for-darkmode();
+        }
+
+        .spotlight::before,
+        .text-of-report,
+        .form-for-nghiencuu form select,
+        .slide-link-all a,
+        .article-category span,
+        .most-read-text-area {
+            .theme-darkigy-lighter();
+        }
+
+        .slide-link-all a {
+            border-radius: 7px;
+            padding: 2px 6px;
+        }
+
+        .details-of-report a::before {
+            border: 1px solid @discord-lighter-theme;
+        }
+
+        .nghiencuu-bar{
+            border-top: 1px solid @discord-lighter-theme;
+        }
+
+        // Tạm thời để background image là unset vì ảnh có vấn đề về nền trắng,
+        // và không phải định dạng .png
+        .form-display::before {
+            background-image: unset;
+        }
+    }
+}

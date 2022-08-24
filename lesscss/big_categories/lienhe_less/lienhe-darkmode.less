@@ -1,0 +1,30 @@
+@import 'functions_lienhe.less';
+@import '../../var.less';
+
+// #main-image-page {
+//     .getImg('contact.jpg');
+// }
+
+body {
+    &.dark-theme {
+        .theme-darkify();
+
+        #main-title p,
+        #title-of-form p,   
+        #the-main-form label,
+        .form-warning p,
+        #web-name a,
+        .real-address p,
+        .real-address a,
+        #menu-1 .item-footer a,
+        #menu-2 .item-footer a,
+        .contacts p {
+            .text-for-darkmode();
+        }
+
+        #main-contact,
+        .form-warning a {
+            .theme-darkify-lighter();
+        }
+    }
+}

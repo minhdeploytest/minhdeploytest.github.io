@@ -1,0 +1,19 @@
+body.dark-theme {
+  background-color: #2C2F33;
+}
+body.dark-theme #main-title p,
+body.dark-theme #title-of-form p,
+body.dark-theme #the-main-form label,
+body.dark-theme .form-warning p,
+body.dark-theme #web-name a,
+body.dark-theme .real-address p,
+body.dark-theme .real-address a,
+body.dark-theme #menu-1 .item-footer a,
+body.dark-theme #menu-2 .item-footer a,
+body.dark-theme .contacts p {
+  color: #fff;
+}
+body.dark-theme #main-contact,
+body.dark-theme .form-warning a {
+  background-color: #576574;
+}

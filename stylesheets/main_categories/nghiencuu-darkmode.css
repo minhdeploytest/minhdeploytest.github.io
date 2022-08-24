@@ -1,0 +1,51 @@
+body.dark-theme {
+  background-color: #2C2F33;
+}
+body.dark-theme .main-title-area h1,
+body.dark-theme .main-title-area p,
+body.dark-theme span#cate-1,
+body.dark-theme span#cate-2,
+body.dark-theme .spotlight-title a h2,
+body.dark-theme .spotlight-desc p,
+body.dark-theme .slide-title p,
+body.dark-theme .slide-link-all a,
+body.dark-theme .report-title p,
+body.dark-theme .report-date p,
+body.dark-theme .details-of-report a span,
+body.dark-theme .nghiencuu-title p,
+body.dark-theme .title-of-form p,
+body.dark-theme .article-category span,
+body.dark-theme .the-article p,
+body.dark-theme .form-for-nghiencuu form select,
+body.dark-theme .most-read-text-area p,
+body.dark-theme #web-name a,
+body.dark-theme .real-address p,
+body.dark-theme .real-address a,
+body.dark-theme #menu-1 a,
+body.dark-theme #menu-2 a,
+body.dark-theme #contact-title p,
+body.dark-theme .final-footer-left p,
+body.dark-theme .final-footer-right a {
+  color: #fff;
+}
+body.dark-theme .spotlight::before,
+body.dark-theme .text-of-report,
+body.dark-theme .form-for-nghiencuu form select,
+body.dark-theme .slide-link-all a,
+body.dark-theme .article-category span,
+body.dark-theme .most-read-text-area {
+  background-color: #576574;
+}
+body.dark-theme .slide-link-all a {
+  border-radius: 7px;
+  padding: 2px 6px;
+}
+body.dark-theme .details-of-report a::before {
+  border: 1px solid #576574;
+}
+body.dark-theme .nghiencuu-bar {
+  border-top: 1px solid #576574;
+}
+body.dark-theme .form-display::before {
+  background-image: unset;
+}

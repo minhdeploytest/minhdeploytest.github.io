@@ -1,0 +1,301 @@
+/* Main image of the page */
+#main-image-page {
+    background-image: url('../../images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 620px;
+}
+
+/* Title of Main Form */
+.desc-bg-color {
+    background-image: linear-gradient(to right, #162570, #0647c9);
+    padding: 35px 0;
+    position: relative;
+}
+
+.desc-bg-color::before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: '';
+    width: 230px;
+    height: 100%;
+    background-image: url(../../images/3-line.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title-desc p {
+    font-size: 32px;
+    font-family: gilroy;
+    color: #fff;
+    font-weight: 700;
+}
+
+#desc {
+    color: #cbd5e7;
+    font-size: 16px;
+    font-family: graphik;
+    font-weight: 400;
+    letter-spacing: 0.64px;
+    line-height: 1.5;
+}
+
+#desc p {
+    margin-bottom: 0;
+}
+
+/* Main Form and Main Contacts */
+#main-contact {
+    background-color: #f3f3f5;
+
+}
+
+#whole-contact-block {
+    width: 100%;
+    padding: 70px 60px;
+}
+
+#contact-block-focused {
+    max-width: 385px;
+    margin-right: 18px;
+    float: right;
+}
+
+/*  ----Main Contacts */
+.city-main {
+    color: #222;
+    font-size: 17px;
+    font-family: gilroy;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.specific-location {
+    font-size: 15px;
+    font-family: graphik;
+    font-weight: 400;
+    letter-spacing: 0.09px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-bottom: 15px;
+}
+
+.specific-location:nth-child(5), .specific-location:nth-child(6){
+    margin-bottom: 0;
+}
+.specific-location a {
+    text-decoration: none;
+    color: #75787c;
+}
+
+.connect-main {
+    color: #222;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.all-platforms {
+    width: 100%;
+    display: inline-block;
+}
+
+.icons {
+    display: inline-block;
+}
+
+/*  ----The Main Form */
+#the-main-form {
+    margin-left: 53px;
+    margin-top: 70px;
+    width: 75%;
+}
+
+#title-of-form {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#title-of-form p {
+    color: #222;
+    font-size: 24px;
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+.row-form {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.column-form-1 {
+    width: 45%;
+    float: left;
+}
+
+.column-form-2 {
+    width: 45%;
+    float: right;
+}
+
+.first-name-input {
+    float: left;
+    width: 100%;
+    border: 1px solid #bbb;
+    color: #132833;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 3px;
+    height: 38px;
+}
+
+.last-name-input {
+    float: right;
+    width: 100%;
+    border: 1px solid #bbb;
+    color: #132833;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 3px;
+    height: 38px;
+}
+
+.row-form label {
+    color: #555;
+    font-size: 17px;
+    font-family: graphik;
+    font-weight: 400;
+}
+
+.column-form-3,
+.main-form-checkbox {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#checkbox-instruction {
+    display: inline;
+}
+
+.main-form-checkbox label {
+    color: #555;
+    font-size: 14px;
+    font-family: graphik;
+    font-weight: 400;
+}
+
+.the-main-textarea {
+    height: 150px;
+    margin-bottom: -25px;
+}
+
+.button-submit {
+    float: right;
+    padding: 20px 0;
+}
+
+#submit-form-button {
+    width: 100%;
+    background-color: #0647c9;
+    color: #fff;
+    font-size: 17px;
+    font-family: gilroy;
+    font-weight: 700;
+    border: none;
+    height: 100%;
+    padding: 10px 45px;
+}
+
+#linebreak-form {
+    margin-top: 130px;
+    border-top: 1px solid rgba(85, 85, 85, 0.4);
+    margin-bottom: 20px;
+}
+
+.form-warning {
+    width: 100%;
+    margin-bottom: 86px;
+}
+
+.form-warning p {
+    font-size: 13px;
+    font-family: graphik;
+    color: #555;
+}
+
+.form-warning a {
+    text-decoration: none;
+    color: #121619;
+    font-size: 13px;
+    font-family: graphik;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 1400px) {
+    #main-image-page {
+        min-height: 376px;
+    }
+}
+
+@media screen and (max-width: 1114px) {
+    .desc-bg-color::before {
+        background-image: unset;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 930px){
+    .row-form label{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 850px){
+    #whole-contact-block{
+        padding: 70px 13px;
+    }
+    #main-image-page{
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #the-main-form{
+        width: 100%;
+        margin-left: 0;
+    }
+    #contact-block-focused{
+        max-width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 620px){
+    #title-desc p{
+        font-size: 25px;
+    }
+
+    #desc p{
+        font-size: 12px;
+    }
+
+    .city-main, .connect-main{
+        font-size: 14px;
+    }
+
+    .specific-location{
+        font-size: 12px;
+    }
+
+    #title-of-form p{
+        font-size: 17px;
+    }
+}
+
+

@@ -1,0 +1,79 @@
+/* All fonts */
+/* Gilroy Font */
+@font-face {
+    font-weight: 300;
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-Light.eot);
+    src: url(../fonts/Gilroy-Light.ttf);
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-Regular.eot);
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-Medium.eot);
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-SemiBold.eot);
+    src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-Bold.eot);
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-weight: 800;
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-Black.eot);
+    src: url(../fonts/Gilroy-Black.ttf);
+}
+
+/* Graphik Font */
+@font-face {
+    font-weight: 300;
+    font-family: graphik;
+    src: url(../fonts/Graphik-Light.eot);
+    src: url(../fonts/Graphik-Light.ttf);
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: graphik;
+    src: url(../fonts/Graphik-Regular.eot);
+    src: url(../fonts/Graphik-Regular.ttf);
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: graphik;
+    src: url(../fonts/Graphik-Medium.eot);
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: graphik;
+    src: url(../fonts/Graphik-Semibold.eot);
+    src: url(../fonts/Graphik-Semibold.ttf);
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: graphik;
+    src: url(../fonts/Graphik-Bold.eot);
+    src: url(../fonts/Graphik-Bold.ttf);
+}

@@ -1,0 +1,443 @@
+/* Navigation bar */
+#the-header {
+    background-color: #162570;
+
+}
+
+.container {
+    max-width: 1280px;
+}
+
+#main-page-link {
+    float: left;
+    padding: 8px 0 9px;
+}
+
+#fpt-logo {
+    max-width: 86px;
+    margin: auto;
+    display: inline-block;
+}
+
+#main-items-nav ul {
+    margin-bottom: 0;
+}
+
+#main-items-nav li {
+    display: inline-block;
+    padding: 14px 42px 14px 12px;
+    font-size: 12px;
+    font-family: graphik;
+    font-weight: 400;
+    background-image: url('../images/dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+#main-items-nav li a {
+    text-decoration: none;
+    color: #e4ecf5;
+}
+
+
+.language-wrap {
+    padding: 12px 0;
+}
+
+.languages a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: graphik;
+    padding-left: 25px;
+    font-weight: 400;
+    background-image: url('../images/fdx-globe.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left;
+}
+
+/* Title of the page */
+#main-title {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#main-title p {
+    color: #000;
+    font-size: 70px;
+    font-family: gilroy;
+}
+
+/* Subscription Area */
+.subscription {
+    background-image: url(../images/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    padding: 70px 0;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.form-title p {
+    font-size: 33px;
+    font-family: gilroy;
+    font-weight: 600;
+    color: #fff;
+}
+
+.form-description {
+    margin-bottom: 60px;
+}
+
+.form-description p {
+    font-size: 17px;
+    font-family: graphik;
+    font-weight: 300;
+    color: rgba(198, 203, 218, .8);
+    line-height: 1.76;
+}
+
+#sign-up-form {
+    width: 100%;
+}
+
+.form-input,
+#submit-button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin-right: 15px;
+    color: #8ea3dc;
+}
+
+::placeholder,
+.form-input option {
+    color: #8ea3dc;
+    font-size: 14px;
+    font-family: gilroy;
+    font-weight: 500;
+}
+
+.form-input {
+    border-bottom: 1px solid #606787;
+    padding: 12px 0;
+}
+
+#submit-button {
+    background-color: #233a90;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+.line-break {
+    border-top: 1px solid #d5d5d5;
+    margin-bottom: 12px;
+}
+
+.display-all-footer {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#current-location {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#current-location .item-location {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.item-location:nth-child(1),
+.item-location:nth-child(2) {
+    padding-right: 25px;
+    position: relative;
+}
+
+.item-location:nth-child(1)::before,
+.item-location:nth-child(2)::before {
+    position: absolute;
+    content: '';
+    background-image: url('../images/dropdown.svg');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    right: -5px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-90deg);
+}
+
+#current-location .item-location a {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 14px;
+    font-family: graphik;
+    font-weight: 700px;
+}
+
+#web-name {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#web-name a {
+    font-family: gilroy;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #111;
+}
+
+address {
+    max-width: 100%;
+}
+
+.real-address {
+    width: 32%;
+    line-height: 1.63;
+    margin-right: 50px;
+    float: left;
+}
+
+#menu-1,
+#menu-2 {
+    width: 16%;
+    float: left;
+    margin-left: 40px;
+}
+
+.contacts {
+    width: 20%;
+    float: right;
+}
+
+.city {
+    color: #222222;
+    font-size: 13px;
+    font-family: gilroy;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.spec-location {
+    font-style: normal;
+    color: #212529;
+    font-size: 15px;
+    font-family: graphik;
+    font-weight: 400;
+}
+
+.email-phone {
+    font-family: graphik;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.email-phone a {
+    text-decoration: none;
+    color: #121619;
+}
+
+.email-phone strong {
+    font-weight: 600 !important;
+}
+
+#menu-1 .item-footer a,
+#menu-2 .item-footer a {
+    color: #333333;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 15px;
+    font-family: graphik;
+    font-weight: 400;
+    line-height: 1.63;
+    letter-spacing: 0.58px;
+}
+
+
+#contact-title {
+    margin-bottom: 40px;
+}
+
+#contact-title p {
+    float: right;
+    font-size: 13px;
+    font-family: graphik;
+    font-weight: 500;
+    color: #222222;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+#icon-contact {
+    float: right;
+}
+
+#icon-contact .the-icons {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.final-footer .final-footer-display {
+    width: 100%;
+    display: inline-block;
+}
+
+.final-footer-left {
+    display: inline-block;
+    width: 30%;
+}
+
+.final-footer-left p {
+    color: #757575;
+    font-size: 13px;
+    font-family: graphik;
+    font-weight: 400;
+    letter-spacing: 0.34px;
+}
+
+.final-footer-right {
+    float: right;
+    width: 40%;
+}
+
+.final-links {
+    float: right;
+}
+
+.final-footer-right div {
+    display: inline-block;
+}
+
+.final-links div:nth-child(2)::before,
+.final-links div:nth-child(3)::before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    margin: auto 7px 3px 4px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #757575;
+}
+
+.final-footer-link a {
+    color: #757575;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: graphik;
+    text-decoration: none;
+    letter-spacing: 0.34px;
+}
+
+@media screen and (max-width: 1264px){
+    #main-items-nav li{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 1114px) {
+    #main-items-nav {
+        /* Tạm thời để none để thiết kế hamburger bằng JS sau */
+        display: none;
+    }
+
+    .language-wrap {
+        /* Tạm thời để none để thiết kế hamburger bằng JS sau */
+        display: none;
+    }
+}
+@media screen and (max-width: 1059px) {
+
+    #menu-1,
+    #menu-2 {
+        margin-left: 0;
+    }
+
+    .contacts {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 907px){
+    .final-footer-right, .final-footer-left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .final-footer-right{
+        margin-bottom: 20px;
+    }
+    .final-links{
+        float: none;
+    }
+}
+@media screen and (max-width:905px) {
+    .real-address {
+        width: 100%;
+    }
+
+    #menu-1,
+    #menu-2 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .contacts {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #contact-title {
+        float: left;
+    }
+
+    #icon-contact {
+        float: none;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .form-description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 684px){
+    .form-input{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 620px) {
+    #main-title p {
+        font-size: 40px;
+    }
+
+    #submit-button {
+        padding-top: 7px;
+    }
+
+    .form-title p {
+        font-size: 25px;
+    }
+
+    .form-description p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {}

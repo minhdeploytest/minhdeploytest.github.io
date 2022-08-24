@@ -1,0 +1,46 @@
+.container {
+    max-width: 1280px;
+}
+
+.whole-section {
+    width: 100%;
+    border-top: 3px solid #f3f3f3;
+    margin-bottom: 110px;
+    position: relative;
+    z-index: 2;
+    float: left;
+}
+
+.wrap {
+    max-width: 100%;
+    position: relative;
+}
+
+.container-display {
+    width: 100%;
+}
+
+.container-display::before {
+    background-image: url('images/threelines.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: absolute;
+    content: '';
+    z-index: 1;
+    top: -3px;
+    width: 135px;
+    height: 85px;
+}
+
+.form-father {
+    width: 1115px;
+    float: right;
+}
+
+.form {
+    width: 100%;
+    float: right;
+    margin-top: 70px;
+    text-align: left;
+}

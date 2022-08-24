@@ -1,0 +1,147 @@
+#main-part {
+    max-width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#main-part::before {
+    background-image: url('../../images/bgdvc.png');
+    width: 100%;
+    height: calc(100% - 40px);
+    position: absolute;
+    content: '';
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+
+#display-main-part {
+    width: 100%;
+    display: inline-block;
+    z-index: 2;
+    /* Nếu không đặt position relative cho z-index ở trong div này, cái z-index sẽ ăn theo thằng
+    position relative gần nhất (#main-part) và nội dung của z-index sẽ nhảy lung tung */
+    position: relative;
+    padding: 50px 0 0;
+}
+
+#all-main-contents {
+    max-width: 1615px;
+    margin-left: auto;
+}
+
+#all-main-contents-display {
+    padding: 0 20px;
+}
+
+#main-text {
+    width: 40%;
+    float: left;
+    padding-right: 60px;
+}
+
+#main-image {
+    width: 50%;
+    float: left;
+}
+
+#main-mainpoint {
+    color: #fff;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 30%;
+    position: relative;
+}
+
+#main-mainpoint p {
+    padding-left: 10px;
+}
+
+#main-mainpoint::before {
+    content: '';
+    height: 50%;
+    position: absolute;
+    display: block;
+    border-left: 3px solid #006FFC;
+    top: 7.5px;
+}
+
+
+#main-maintitle h2 {
+    width: 100%;
+    font-size: 50px;
+    font-family: gilroy;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#main-maindescription {
+    width: 75%;
+    color: #d0d3e2;
+    font-size: 16px;
+    font-family: graphik;
+    font-weight: 400;
+    line-height: 1.63;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#main-mainlink {
+    width: 20%;
+}
+
+#main-mainlink a {
+    text-decoration: none;
+}
+
+#main-mainlink a::before {
+    z-index: 1;
+    width: 180%;
+    left: -12px;
+    bottom: -3px;
+    height: 100%;
+    position: absolute;
+    content: '';
+    padding: 5px 0;
+    border: transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#main-mainlink a:hover::before {
+    background-color: #fff;
+}
+
+#main-mainlink a span {
+    color: #2F88FF;
+    font-size: 17px;
+    font-family: graphik;
+    font-weight: 500;
+    position: relative;
+    z-index: 20;
+    top: -2px;
+}
+
+#main-mainlink a::after {
+    top: -2px;
+    left: 65px;
+    z-index: 1;
+    background-image: url('../../images/fdx-arr.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content: '';
+    float: left;
+}
+
+#main-mainlink a {
+    position: relative;
+    z-index: 30;
+}
