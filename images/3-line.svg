@@ -1,0 +1,27 @@
+<svg width="229" height="135" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+            <stop stop-color="#28AEFF" offset="0%"/>
+            <stop stop-color="#008EEA" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+            <stop stop-color="#003CB6" offset="0%"/>
+            <stop stop-color="#0018B9" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="e">
+            <stop stop-color="#2267FF" offset="0%"/>
+            <stop stop-color="#003DCB" offset="100%"/>
+        </linearGradient>
+        <path id="a" d="M0 0h229v135H0z"/>
+    </defs>
+    <g transform="matrix(-1 0 0 1 229 0)" fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <g mask="url(#b)" stroke-width="48">
+            <path d="M539.398 1187.854c-313.427-94.061-451.993-387.896-358.04-701.682 93.963-313.785 437.08-514.096 750.507-420.035 313.427 94.07 468.829 463.29 374.866 777.076-93.954 313.785-453.907 438.702-767.333 344.64z" stroke="url(#c)" transform="translate(-1110 -336)"/>
+            <path d="M614.36 1274.685c-327.688 0-641.584-315.247-612.482-641.355C33.74 276.162 327.352 0 655.04 0c327.68 0 571.812 329.642 571.812 657.053 0 327.4-284.803 617.632-612.492 617.632z" stroke="url(#d)" transform="translate(-1110 -336)"/>
+            <path d="M823.697 1337.138c-327.208 64.12-609.839-82.686-672.784-403.735-62.936-321.06 126.484-707.32 453.692-771.44 327.207-64.119 693.584 138.51 702.945 499.992 8.471 327.222-156.636 611.053-483.853 675.183z" stroke="url(#e)" transform="translate(-1110 -336)"/>
+        </g>
+    </g>
+</svg>

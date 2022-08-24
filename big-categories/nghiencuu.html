@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/font.css">
+    <link rel="stylesheet" href="../bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/general.css">
+    <link rel="stylesheet" href="../stylesheets/main_categories/nghiencuu.css">
+    <link rel="stylesheet" href="../stylesheets/main_categories/nghiencuu-darkmode.css">
+    <script src="../js/darkmode-lightmode.js"></script>
+    <title>Nghien cuu</title>
+</head>
+
+<body id="the-body" onload="loadWeb()">
+    <!-- Navigation Bar -->
+    <header id="the-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#" id="main-page-link">
+                        <img src="../images/fdx-logo-top.svg" alt="FPT Logo" id="fpt-logo">
+                    </a>
+                </div>
+                <div class="col-md-8" id="main-items-nav">
+                    <ul>
+                        <li><a href="#">Dịch vụ</a></li>
+                        <li><a href="linhvuc.html">Lĩnh vực</a></li>
+                        <li><a href="#">Phương pháp</a></li>
+                        <li><a href="#">Nghiên cứu</a></li>
+                        <li><a href="lienhe.html">Liên hệ</a></li>
+                        <li><a href="#" onclick="darkify()">Dark</a></li>
+                        <li><a href="#" onclick="lightify()">Light</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 languages">
+                    <div class="language-wrap">
+                        <a href="#">VIE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Title of the page -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 main-title-area">
+                <h1>Nghiên cứu nổi bật</h1>
+                <p>Những dữ liệu chủ chốt, những xu hướng mới và những phân tích từ chuyên gia trong thời đại số</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page's Spotlight -->
+    <div class="spotlight">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-7 spotlight-text">
+                    <div class="spotlight-content">
+                        <div class="spotlight-category">
+                            <span id="cate-1">Nghiên Cứu Mới Nhất</span><span id="cate-2"> - Digital Strategy</span>
+                        </div>
+                        <div class="spotlight-title">
+                            <a href="#">
+                                <h2>3 xu hướng mới của ngành tài chính trong bối cảnh đại dịch</h2>
+                            </a>
+                        </div>
+                        <div class="spotlight-desc">
+                            <p>
+                                Đại dịch đã tạo ra nhiều thay đổi trong mọi mặt cuộc sống, đặc biệt là tạo ra các thói
+                                quen
+                                mới và thay đổi những thói quen cũ của người tiêu dùng. Các tổ chức tài chính cần lưu ý
+                                những gì trong bối cảnh hậu đại dịch Covid-19?…
+                            </p>
+                        </div>
+                        <div class="spotlight-link">
+                            <a href="#"><span>Chi tiết</span></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-5 spotlight-image">
+                    <img src="../images/graphstock2.jpg" alt="A graph">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide bars -->
+    <div class="slide-bars">
+        <div class="container">
+            <div class="slide-bar">
+                <div class="slide-title">
+                    <p>Báo cáo</p>
+                </div>
+                <div class="slide-link-all">
+                    <a href="#">Xem tất cả</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 slide-item">
+                    <div class="text-of-report">
+                        <div class="bg-baocao">
+                            <span>BÁO CÁO</span>
+                        </div>
+                        <div class="report-title">
+                            <p>Tạo trải nghiệm hấp dẫn trên quy mô lớn</p>
+                        </div>
+                        <div class="report-date">
+                            <p>Tháng Hai 2022</p>
+                        </div>
+                    </div>
+                    <div class="img-of-report">
+                        <img src="../images/credit-cards.jpg" alt="A pile of credit cards">
+                    </div>
+
+                    <div class="details-of-report">
+                        <!-- The link for the article -->
+                        <a href=""><span>Xem thêm</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 slide-item">
+                    <div class="text-of-report">
+                        <div class="bg-baocao">
+                            <span>BÁO CÁO</span>
+                        </div>
+                        <div class="report-title">
+                            <p>Tạo trải nghiệm hấp dẫn trên quy mô lớn</p>
+                        </div>
+                        <div class="report-date">
+                            <p>Tháng Hai 2022</p>
+                        </div>
+                    </div>
+                    <div class="img-of-report">
+                        <img src="../images/credit-cards.jpg" alt="A pile of credit cards">
+                    </div>
+
+                    <div class="details-of-report">
+                        <!-- The link for the article -->
+                        <a href=""><span>Xem thêm</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 slide-item">
+                    <div class="text-of-report">
+                        <div class="bg-baocao">
+                            <span>BÁO CÁO</span>
+                        </div>
+                        <div class="report-title">
+                            <p>Tạo trải nghiệm hấp dẫn trên quy mô lớn</p>
+                        </div>
+                        <div class="report-date">
+                            <p>Tháng Hai 2022</p>
+                        </div>
+                    </div>
+                    <div class="img-of-report">
+                        <img src="../images/credit-cards.jpg" alt="A pile of credit cards">
+                    </div>
+
+                    <div class="details-of-report">
+                        <!-- The link for the article -->
+                        <a href=""><span>Xem thêm</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 slide-item">
+                    <div class="text-of-report">
+                        <div class="bg-baocao">
+                            <span>BÁO CÁO</span>
+                        </div>
+                        <div class="report-title">
+                            <p>Tạo trải nghiệm hấp dẫn trên quy mô lớn</p>
+                        </div>
+                        <div class="report-date">
+                            <p>Tháng Hai 2022</p>
+                        </div>
+                    </div>
+                    <div class="img-of-report">
+                        <img src="../images/credit-cards.jpg" alt="A pile of credit cards">
+                    </div>
+
+                    <div class="details-of-report">
+                        <!-- The link for the article -->
+                        <a href=""><span>Xem thêm</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nghiên cứu Bar -->
+    <div class="nghiencuu-bar">
+        <div class="the-wrapper">
+            <div class="container">
+                <div class="form-display">
+                    <div class="form-nghiencuu-father">
+                        <div class="form-nghiencuu">
+                            <div class="nghiencuu-title">
+                                <p>Nghiên Cứu</p>
+                            </div>
+                            <div class="form-for-nghiencuu">
+                                <div class="title-of-form">
+                                    <p>Tìm kiếm: </p>
+                                </div>
+                                <form action="mailto:aekrng@gmeow.cat" class="container no-padding">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-12 item">
+                                            <select name="Lĩnh vực">
+                                                <option value="1">Lĩnh vực</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12 item">
+                                            <select name="Chiến lược">
+                                                <option value="1">Chiến lược</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12 item">
+                                            <select name="Chủ đề">
+                                                <option value="1">Chủ đề</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Big articles -->
+    <div class="container" id="big-articles">
+        <div class="row">
+            <div class="col-lg-8 col-md-6 col-sm-12" id="set-padding-big-article">
+                <div id="the-big-image">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" id="small-article-set-padding">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Smaller articles -->
+    <div class="container" id="smaller-articles">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 small-article-item">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 small-article-item">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 small-article-item">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Most read article -->
+    <div class="most-read-article container">
+        <div class="row no-gutters padding-small-devices">
+            <div class="col-lg-7 col-md-12 most-read-img"></div>
+            <div class="col-lg-5 col-md-12 most-read-text-area">
+                <div id="most-read-wrapper">
+                    <div class="most-read-title">
+                        <p>Bài đọc nhiều nhất</p>
+                    </div>
+                    <div class="the-most-read-article">
+                        <div id="most-read-category">
+                            <span>Digital Strategy</span>
+                        </div>
+                        <div id="most-read-title">
+                            <p>
+                                Trải nghiệm hành trình khách hàng sử dụng dịch vụ tài chính, ngân hàng
+                            </p>
+                        </div>
+                        <div id="most-read-desc">
+                            <p>
+                                Sự phát triển và gia tăng không ngừng về số lượng cũng như chất lượng của các ngân hàng
+                                thương mại khiến cho thị trường dịch vụ ngành tài chính,…
+                            </p>
+                        </div>
+                        <div id="most-read-date">
+                            <p>28 Tháng Một, 2022</p>
+                        </div>
+                        <div id="most-read-link">
+                            <a href="#"><span>Chi tiết</span></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Line Break -->
+    <div class="container">
+        <div class="line-break"></div>
+    </div>
+
+    <!-- All other articles -->
+    <div class="all-other-articles container">
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 other-article">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 other-article">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 other-article">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 other-article">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 other-article">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 other-article">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row 3 -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 other-article">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 other-article">
+                <div class="article-img">
+                    <img src="../images/spiralofcubes.jpg" alt="A spiral full of cubes">
+                </div>
+                <div class="the-article">
+                    <div class="article-category">
+                        <span>Blockchain</span>
+                    </div>
+                    <div class="article-title">
+                        <p>Ứng dụng Blockchain trong lĩnh vực bất động sản </p>
+                    </div>
+                    <div class="article-desc">
+                        <p>
+                            Sự phát triển với tốc độ chóng mặt của công nghệ Blockchain trong thời gian qua đã và đang
+                            từng
+                            bước thay đổi bộ mặt của nhiều lĩnh vực, ngành…
+                        </p>
+                    </div>
+                    <div class="article-date">
+                        <p>01 Tháng Bảy, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subcription Area -->
+    <div class="subscription">
+        <div class="container">
+            <div class="row">
+                <div class="form-title col-md-12">
+                    <p>Đăng kí theo dõi ngay!</p>
+                </div>
+                <div class="form-description col-md-5 col-sm-12">
+                    <p>Cập nhật những xu hướng và phân tích mới nhất về chuyển đổi số với các bản tin điện tử của FPT
+                        Digital.</p>
+                </div>
+                <form action="mailto:yasuoacc123@gmail.com" id="sign-up-form" class="col-md-12">
+                    <input type="text" placeholder="Họ và Tên" class="form-input">
+                    <input type="email" placeholder="Email doanh nghiệp" class="form-input">
+                    <select name="category" id="category" class="form-input">
+                        <option value="bán lẻ và tiêu dùng">Bán lẻ & Tiêu dùng</option>
+                        <option value="type1">Type 1</option>
+                        <option value="type2">Type 2</option>
+                        <option value="type3">Type 3</option>
+                    </select>
+                    <button type="submit" id="submit-button"><img src="../images/arrow-apply.svg" alt="Arrow"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="container">
+        <div class="line-break">
+        </div>
+    </div>
+
+    <div class="container">
+        <footer>
+            <div class="display-all-footer">
+                <div id="current-location">
+                    <div class="item-location"><a href="#">Trang chủ</a></div>
+                    <div class="item-location"><a href="#">Lĩnh vực</a></div>
+                    <div class="item-location"><a href="#">Bán lẻ & Tiêu dùng</a></div>
+                </div>
+                <div id="web-name">
+                    <a href="#">FPT Digital</a>
+                </div>
+                <address>
+                    <div class="real-address">
+                        <p class="city"><strong>HÀ NỘI - TRỤ SỞ CHÍNH</strong></p>
+                        <p class="spec-location">FPT Tower, 10 Phạm Văn Bạch, P. Dịch Vọng, Q. Cầu Giấy, Hà Nội, Việt
+                            Nam
+                        </p>
+                        <p class="city"><strong>TP. HỒ CHÍ MINH</strong></p>
+                        <p class="spec-location">VCB Tower, 5 Công Trường Mê Linh, P. Bến Nghé, Q.1, TP. Hồ Chí Minh,
+                            Việt
+                            Nam
+                        </p>
+                        <p class="email-phone"><a href="tel:0904689597"><strong>Tel:</strong> 0904689597</a></p>
+                        <p class="email-phone"><a href="mailto:fdx.contact@fpt.com.vn"><strong>Email:</strong>
+                                fdx.contact@fpt.com.vn</a></p>
+                    </div>
+                    <div id="menu-1">
+                        <div class="item-footer"><a href="#">Dịch Vụ</a> </div>
+                        <div class="item-footer"><a href="#">Phương pháp</a> </div>
+                        <div class="item-footer"><a href="#">Lĩnh Vực</a></div>
+                        <div class="item-footer"><a href="#">Nghiên Cứu</a> </div>
+                    </div>
+                    <div id="menu-2">
+                        <div class="item-footer"><a href="#">Về Chúng Tôi</a> </div>
+                        <div class="item-footer"><a href="#">Tuyển Dụng</a> </div>
+                        <div class="item-footer"><a href="#">Tin Tức</a> </div>
+                        <div class="item-footer"><a href="#">Tư Vấn</a> </div>
+                        <div class="item-footer"><a href="#">Liên Hệ</a> </div>
+                    </div>
+                    <div class="contacts">
+                        <div id="contact-title">
+                            <p>Kết nối</p>
+                        </div>
+                        <div id="icon-contact">
+                            <div class="the-icons"><a href="#"><img src="../images/linked-in-bot.svg" alt="LinkedIn"
+                                        title="LinkedIn"></a></div>
+                            <div class="the-icons"><a href="#"><img src="../images/facebook-bot.svg" alt="Facebook"
+                                        title="Facebook"></a></div>
+                            <div class="the-icons"><a href="#"><img src="../images/instagram.svg" alt="Instagram"
+                                        title="Instagram"></a></div>
+                            <div class="the-icons"><a href="#"><img src="../images/zalo.svg" alt="Zalo"
+                                        title="Zalo"></a>
+                            </div>
+                            <div class="the-icons"><a href="#"><img src="../images/youtube.svg" alt="YouTube"
+                                        title="YouTube"></a>
+                            </div>
+                        </div>
+                    </div>
+                </address>
+            </div>
+            <div class="line-break"></div>
+            <div class="final-footer">
+                <div class="final-footer-display">
+                    <div class="final-footer-left">
+                        <p>© 2022 FPT Digital. All Rights Reserved.</p>
+                    </div>
+                    <div class="final-footer-right">
+                        <div class="final-links">
+                            <div class="final-footer-link"><a href="#">Điều khoản sử dụng</a></div>
+                            <div class="final-footer-link"><a href="#">Chính sách bảo mật</a></div>
+                            <div class="final-footer-link"><a href="#">Sitemap</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
