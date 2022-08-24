@@ -23,8 +23,8 @@ Test Web Deploy (Vietnamese and English readme. English readme is below Vietname
 - Học được cách sử dụng LessCSS để ứng dụng vào việc làm Dark Mode cho trang web
 - Học được JavaScript để làm các hiệu ứng khác nhau trong file HTML, cũng như để lưu hiệu ứng Dark/Light mode bằng JavaScript Cookies
 
-Người làm: Đào Hải Minh
-Người phụ trách hướng dẫn: anh Nguyễn Thanh Sơn
++ Người làm: Đào Hải Minh
++ Người phụ trách hướng dẫn: anh Nguyễn Thanh Sơn
 
 (English)
 ...
